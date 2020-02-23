@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Sign in</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper-gradient"></div>
+    <div class="wrapper-circle"></div>
+    <div class="wrapper-circle-top"></div>
+    <header class="header">
+      <a href="#" class="logo"><img src="img/logo.png" alt="Logo" class="logo__img"></a>
+      <a href="#" class="link-button">
+        <svg version="1.1" viewBox="0 0 140 45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+          <linearGradient id="signUp" x1="0%" x2="100%" y1="0%" y2="0%" >
+            <stop stop-color="#fff" offset="0">
+              <animate
+                attributeName="stop-color"
+                dur="0.8s"
+                values="#2cf6a7;#99ee62"
+                begin="gr2.mouseover"
+                end="gr2.mouseout"
+                repeatCount="indefinite"  /> 
+            </stop>
+            <stop stop-color="#fff" offset="0.9">
+              <animate
+                attributeName="stop-color"
+                dur="0.8s"
+                values="#99ee62;#2cf6a7"
+                begin="gr2.mouseover"
+                end="gr2.mouseout"
+                repeatCount="indefinite"  /> 
+            </stop>
+          </linearGradient>
+          <linearGradient id="linearGradientFillSignUp" x1="0%" x2="100%" y1="0%" y2="0%" >
+            <stop stop-color="transparent" offset="0">
+              <animate
+                attributeName="stop-color"
+                dur="0.8s"
+                values="#2cf6a7"
+                begin="gr2.mouseover"
+                end="gr2.mouseout"
+                repeatCount="indefinite"  /> 
+            </stop>
+            <stop stop-color="transparent" offset="0.9">
+              <animate
+                attributeName="stop-color"
+                dur="0.8s"
+                values="#99ee62"
+                begin="gr2.mouseover"
+                end="gr2.mouseout"
+                repeatCount="indefinite"  /> 
+            </stop>
+          </linearGradient>
+          <linearGradient id="linearGradientTextSignUp" x1="0%" x2="100%" y1="0%" y2="0%" >
+            <stop stop-color="#fff" offset="0">
+              <animate
+                attributeName="stop-color"
+                dur="0.8s"
+                values="#233f54"
+                begin="gr2.mouseover"
+                end="gr2.mouseout"
+                repeatCount="indefinite"  /> 
+            </stop>
+          </linearGradient>
+          </defs>
+          <g id="gr2">
+            <rect class="button-border" x="1%" y="5%" width="98%" height="94%" rx="13%" />
+            <text class="button-text" x="49%" y="61%">Sign up</text>
+          </g>
+        </svg>
+      </a>
+    </header>
+    <main>
+      <h1 class="h1">Sign In</h1>
+      <form class="form-sign-in" action="walkthrough.html" method="POST">
+        <div class="input-container">
+          <input type="text" pattern="([^@]+@[^@]+\.[a-zA-Z]{2,6})|((\+?\d[- .]*){7,13})" placeholder="Email / phone number" class="input-container__input" name="email" required />
+          <input type="password" placeholder="Password" class="input-container__input" name="password" required/>          
+        </div>
+        <a href="#" class="link-text">Reset password</a>
+        <input type="submit" value="Sign In"  class="button button_green" />
+      </form>
+      <div class="or-sign-in-block">
+        <div class="or-line-container"><div class="line"></div><div class="or-line">Or</div><div class="line"></div></div>
+        <a href="#" class="link-button">
+          <svg version="1.1" viewBox="0 0 253 45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+            <linearGradient id="linearGradient" x1="0%" x2="100%" y1="0%" y2="0%" >
+              <stop stop-color="#99ee62" offset="0">
+                <animate
+                  attributeName="stop-color"
+                  dur="0.8s"
+                  values="#2cf6a7"
+                  begin="gr1.mouseover"
+                  end="gr1.mouseout"
+                  repeatCount="indefinite"  /> 
+              </stop>
+              <stop stop-color="#2cf6a7" offset="0.9">
+                <animate
+                  attributeName="stop-color"
+                  dur="0.8s"
+                  values="#99ee62"
+                  begin="gr1.mouseover"
+                  end="gr1.mouseout"
+                  repeatCount="indefinite"  /> 
+              </stop>
+            </linearGradient>
+            <linearGradient id="linearGradientFill" x1="0%" x2="100%" y1="0%" y2="0%" >
+              <stop stop-color="transparent" offset="0">
+                <animate
+                  attributeName="stop-color"
+                  dur="0.8s"
+                  values="#2cf6a7"
+                  begin="gr1.mouseover"
+                  end="gr1.mouseout"
+                  repeatCount="indefinite"  /> 
+              </stop>
+              <stop stop-color="transparent" offset="0.9">
+                <animate
+                  attributeName="stop-color"
+                  dur="0.8s"
+                  values="#99ee62"
+                  begin="gr1.mouseover"
+                  end="gr1.mouseout"
+                  repeatCount="indefinite"  /> 
+              </stop>
+            </linearGradient>
+            <linearGradient id="linearGradientText" x1="0%" x2="100%" y1="0%" y2="0%" >
+              <stop stop-color="#fff" offset="0">
+                <animate
+                  attributeName="stop-color"
+                  dur="0.8s"
+                  values="#233f54"
+                  begin="gr1.mouseover"
+                  end="gr1.mouseout"
+                  repeatCount="indefinite"  /> 
+              </stop>
+            </linearGradient>
+            </defs>
+            <g id="gr1">
+              <rect class="button-border" x="1%" y="5%" width="98%" height="94%" rx="9%" />
+              <text class="button-text" x="43.6%" y="62%">Sign in with</text>
+              <image xlink:href="img/se-logo.png" width="30" height="25" x="63.5%" y="26%" />
+            </g>
+          </svg>
+         </a>
+      </div>
+      
+    </main>    
+  </div>
+</body>
+</html>

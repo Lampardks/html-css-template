@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Welcome aboard Coach</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper-gradient"></div>
+    <div class="wrapper-circle"></div>
+    <div class="wrapper-circle-top"></div>
+    <div class="wrapper-rectangle"></div>
+    <div class="wrapper-rectangle2"></div>
+    <header class="header">
+      <a href="#" class="logo"><img src="img/logo.png" alt="Logo" class="logo__img"></a>
+    </header>
+    <main>
+      <h1 class="h1 h1_walkthrough">Welcome aboard Coach</h1>
+      <p class="desc">Please watch the video to proceed</p>
+      <div class="video">
+      <video width="358" height="314" poster="img/video-image.jpg">
+        <source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        Тег video не поддерживается вашим браузером. 
+        <a href="video/video.mp4">Скачайте видео</a>.        
+      </video>
+      <svg class="play" onClick="document.querySelector('video').play(); document.querySelector('video').setAttribute('controls', 'true'); this.remove();" width="127" height="128" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="a" width="171" height="182" x="-22" y="-32" filterUnits="userSpaceOnUse">
+            <feOffset dy="10" result="FeOffset1154Out" in="SourceGraphic"/>
+            <feGaussianBlur stdDeviation="16 16" result="FeGaussianBlur1155Out" in="FeOffset1154Out"/>
+          </filter>
+          <filter id="d" width="165" height="175" x="-19" y="-29" filterUnits="userSpaceOnUse">
+            <feOffset dy="10" result="FeOffset1173Out" in="SourceGraphic"/>
+            <feGaussianBlur stdDeviation="16 16" result="FeGaussianBlur1174Out" in="FeOffset1173Out"/>
+          </filter><filter id="g" width="112" height="128" x="10" y="-4" filterUnits="userSpaceOnUse">
+            <feOffset dy="10" result="FeOffset1192Out" in="SourceGraphic"/>
+            <feGaussianBlur stdDeviation="16 16" result="FeGaussianBlur1193Out" in="FeOffset1192Out"/>
+          </filter>
+          <mask id="b" x="-1" y="-1" width="2" height="2">
+            <path fill="#fff" d="M28 18h71v72H28z"/>
+            <path d="M63.497 89.128c19.605 0 35.498-15.922 35.498-35.564C98.995 33.923 83.102 18 63.497 18 43.893 18 28 33.923 28 53.564c0 19.642 15.893 35.564 35.497 35.564z"/>
+          </mask>
+          <mask id="e" x="-1" y="-1" width="2" height="2">
+            <path fill="#fff" d="M31 21h65v65H31z"/>
+            <path d="M63.498 85.575c17.644 0 31.947-14.33 31.947-32.007 0-17.678-14.303-32.008-31.947-32.008-17.645 0-31.948 14.33-31.948 32.008 0 17.677 14.303 32.007 31.948 32.007z"/>
+          </mask>
+          <mask id="h" x="-1" y="-1" width="2" height="2">
+            <path fill="#fff" d="M60 46h12v18H60z"/>
+            <path d="M71.037 54.076l-.05-.021-8.084-7.452a1.242 1.242 0 00-1.65 0l-.01.008c-.218.2-.353.469-.353.761v14.906c0 .301.146.572.364.77a1.242 1.242 0 001.65 0l8.133-7.463a1.018 1.018 0 000-1.509z"/>
+          </mask>
+          <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="63.495" y1="18" x2="63.495" y2="89.13"><stop stop-color="#2cda9c" offset="0"/>
+            <stop stop-color="#0bbf7f" offset="1"/>
+          </linearGradient>
+          <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="63.495" y1="21.56" x2="63.495" y2="85.57"><stop stop-color="#90ef68" offset="0"/>
+            <stop stop-color="#0bbf7f" offset="1"/>
+          </linearGradient>
+        </defs>
+        <g opacity=".5"><g filter="url(#a)">
+          <path d="M63.497 89.128c19.605 0 35.498-15.922 35.498-35.564C98.995 33.923 83.102 18 63.497 18 43.893 18 28 33.923 28 53.564c0 19.642 15.893 35.564 35.497 35.564z" fill="none" mask="url(&quot;#b&quot;)"/>
+          <path d="M63.497 89.128c19.605 0 35.498-15.922 35.498-35.564C98.995 33.923 83.102 18 63.497 18 43.893 18 28 33.923 28 53.564c0 19.642 15.893 35.564 35.497 35.564z" fill-opacity=".3"/>
+        </g>
+        <path d="M63.497 89.128c19.605 0 35.498-15.922 35.498-35.564C98.995 33.923 83.102 18 63.497 18 43.893 18 28 33.923 28 53.564c0 19.642 15.893 35.564 35.497 35.564z" fill="url(#c)"/>
+      </g>
+      <g filter="url(#d)">
+        <path d="M63.498 85.575c17.644 0 31.947-14.33 31.947-32.007 0-17.678-14.303-32.008-31.947-32.008-17.645 0-31.948 14.33-31.948 32.008 0 17.677 14.303 32.007 31.948 32.007z" fill="none" mask="url(&quot;#e&quot;)"/>
+        <path d="M63.498 85.575c17.644 0 31.947-14.33 31.947-32.007 0-17.678-14.303-32.008-31.947-32.008-17.645 0-31.948 14.33-31.948 32.008 0 17.677 14.303 32.007 31.948 32.007z" fill-opacity=".15"/>
+      </g>
+      <path d="M63.498 85.575c17.644 0 31.947-14.33 31.947-32.007 0-17.678-14.303-32.008-31.947-32.008-17.645 0-31.948 14.33-31.948 32.008 0 17.677 14.303 32.007 31.948 32.007z" fill="url(#f)"/>
+      <g>
+        <g filter="url(#g)">
+          <path d="M71.037 54.076l-.05-.021-8.084-7.452a1.242 1.242 0 00-1.65 0l-.01.008c-.218.2-.353.469-.353.761v14.906c0 .301.146.572.364.77a1.242 1.242 0 001.65 0l8.133-7.463a1.018 1.018 0 000-1.509z" fill="none" mask="url(&quot;#h&quot;)"/>
+          <path d="M71.037 54.076l-.05-.021-8.084-7.452a1.242 1.242 0 00-1.65 0l-.01.008c-.218.2-.353.469-.353.761v14.906c0 .301.146.572.364.77a1.242 1.242 0 001.65 0l8.133-7.463a1.018 1.018 0 000-1.509z" fill="#2cda9c" fill-opacity=".15"/>
+        </g>
+        <path d="M71.037 54.076l-.05-.021-8.084-7.452a1.242 1.242 0 00-1.65 0l-.01.008c-.218.2-.353.469-.353.761v14.906c0 .301.146.572.364.77a1.242 1.242 0 001.65 0l8.133-7.463a1.018 1.018 0 000-1.509z" fill="#fff"/>
+      </g>
+    </svg>  
+    </div>
+    <p class="text-confirm">Confirm that you watched the Training Video</p>
+    <a href="#" class="button button_white">Confirm</a>      
+    </main>    
+  </div>
+</body>
+</html>
+</body>
+</html>
